@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Playfair+Display:400,700,900&display=swap');
+
+@media (min-width: 1400px) {
+   .container {
+      width: 1330px;
+   }
+}
+
+@font-face {
+   font-family: 'gooddog';
+   font-weight: normal;
+   font-style: normal;
+   src: url('fonts/gooddp__-webfont.ttf') format('ttf'),
+      url('fonts/gooddp__-webfont.woff2') format('woff2'),
+      url('fonts/gooddp__-webfont.woff') format('woff');
+}
+
+/* font-family: 'gooddog', cursive; */
+
+
+@font-face {
+   font-family: gabelisa;
+   src: url('fonts/Gabelisa.otf');
+}
+
+.main-header {
+   background-image: url(../img/hero-bg.png);
+   background-position: center;
+   background-size: cover;
+   height: 1012px;
+   background-repeat: no-repeat;
+}
+
+.navbar-right-top {
+   display: flex;
+   justify-content: flex-end;
+   padding: 35px 0px 14px 0px;
+}
+
+a.navbar-brand {
+   padding-top: 73px;
+}
+
+li.nav-item a {
+   font-size: 16.67px;
+   padding-left: 50px;
+   padding-right: 0px;
+   color: #fff;
+   text-transform: uppercase;
+   font-family: 'Playfair Display', serif;
+   line-height: 100%;
+   letter-spacing: 3px;
+   font-weight: 700;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+   text-decoration: none;
+   background-color: transparent;
+}
+
+/* Hero */
+
+.herotxt {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   height: 550px;
+   padding-left: 74px;
+}
+
+.herotxt h1 {
+   font-size: 115px;
+   color: #f04b58;
+   font-family: gabelisa, serif;
+   padding-left: 65px;
+
+}
+
+.herotxt h1 span {
+   display: flex;
+   justify-content: center;
+   margin-left: -44px;
+}
+
+/* Our story */
+
+.our-story {
+   background-image: url(../img/section2.png);
+   height: 637px;
+   background-size: contain;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -60px;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.orange {
+   position: absolute;
+   left: 287px;
+   bottom: -100px;
+}
+
+.berry {
+   position: absolute;
+   right: 0;
+   top: -112px;
+   z-index: -1;
+}
+
+.ourstorytext {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.ourstorytext h1 {
+   font-family: 'Playfair Display', serif;
+   font-size: 41px;
+   font-weight: 700;
+}
+
+.ourstorytext p {
+   font-size: 20.83px;
+   line-height: 33px;
+   font-family: 'Playfair Display', serif;
+   padding-top: 20px;
+}
+
+.ourstorytext span {
+   font-family: gabelisa, serif;
+   font-size: 100px;
+   color: #f04b58;
+}
+
+.ourstorytext button.btn.btn-default {
+   padding: 13px 34px;
+   font-size: 16px;
+   font-weight: 700;
+   text-transform: uppercase;
+   line-height: 33.33px;
+   letter-spacing: 3.6px;
+   margin-top: 42px;
+   border-color: #fac0c5;
+   font-family: 'Playfair Display', serif;
+}
+
+/* Feast */
+
+.feast-section {
+   background-image: url(../img/section3.png);
+   height: 660px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.feast-txt {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+   position: relative;
+}
+
+.row.feast-txt h4 {
+   color: #fff;
+   font-size: 33px;
+   letter-spacing: 4.6px;
+   font-family: 'Playfair Display', serif;
+   font-weight: 700;
+   text-align: center;
+   padding-right: 60px;
+   padding-bottom: 27px;
+}
+
+.spoon img {
+   margin-left: -40px;
+}
+
+.spoon {
+   text-align: center;
+   position: relative;
+   margin-left: -23px;
+}
+
+.spoon:before {
+   background-color: #ebae4c;
+   width: 230px;
+   content: "";
+   height: 1px;
+   display: inline-block;
+   left: 37px;
+   top: 15px;
+   position: absolute;
+}
+
+.spoon:after {
+   background-color: #ebae4c;
+   width: 230px;
+   content: "";
+   height: 1px;
+   display: inline-block;
+   top: 15px;
+   right: 79px;
+   position: absolute;
+}
+
+.ourstorytext button.btn.btn-default {
+   padding: 12px 35px;
+}
+
+.ourstorytext button.btn.btn-default:hover {
+   background-color: #f04b58;
+   color: #fff;
+   transition: .5s ease .05s;
+}
+
+/* Menu */
+section.menu {
+   padding: 106px 0px;
+}
+
+.col-md-6.menuwriting {
+   display: -webkit-flex;
+   align-items: center;
+   justify-content: flex-start;
+   height: 576px;
+}
+
+.menu-txt {
+   width: 100%;
+}
+
+.menu-txt h2 {
+   font-family: 'Playfair Display', serif;
+   font-size: 29.70px;
+   text-transform: uppercase;
+   font-weight: 700;
+   line-height: 46px;
+   letter-spacing: .6px;
+}
+
+.menu-txt h1 {
+   font-size: 62px;
+   font-family: gabelisa, serif;
+   color: #f04b58;
+   padding-bottom: 20px;
+   margin-top: -8px;
+}
+
+.menu-txt-sub h5 {
+   font-size: 25px;
+   font-weight: 700;
+   font-family: 'Playfair Display', serif;
+}
+
+.menu-txt-sub p {
+   color: #717171;
+   width: 322px;
+   padding-bottom: 33px;
+   font-family: 'Playfair Display', serif;
+}
+
+.menu-txt-sub p {
+   color: #717171;
+   width: 383px;
+   padding-bottom: 30px;
+   font-family: 'Playfair Display', serif;
+   word-spacing: 2px;
+}
+
+.menu-txt-sub .royalsub {
+   float: left;
+   font-family: 'Playfair Display', serif;
+}
+
+.dollar {
+   float: right;
+
+}
+
+.dollar h6 {
+   font-family: 'Playfair Display', serif;
+   font-size: 25px;
+   color: #f04b58;
+   font-weight: 700;
+}
+
+/* Social Events */
+.social-events h3 {
+   text-transform: uppercase;
+   font-size: 29.17px;
+   font-weight: 700;
+   font-family: 'Playfair Display', serif;
+   margin-top: 54px;
+}
+
+section.social-events h1 {
+   color: #f04b58;
+   font-size: 62.5px;
+   font-family: gabelisa, serif;
+   padding-bottom: 35px;
+}
+
+.secialtxt p {
+   font-size: 20.83px;
+   color: #3d3d3d;
+   font-family: 'Playfair Display', serif;
+   line-height: 33px;
+}
+
+.secialfile {
+   padding-left: 78px;
+   padding-top: 45px;
+}
+
+.sandwich {
+   margin-left: -110px;
+}
+
+/* Reservation */
+
+section.reservation {
+   padding-top: 36px;
+   padding-bottom: 20px;
+}
+
+.reservation {
+   position: relative;
+}
+
+.tomatto2 {
+   position: absolute;
+   top: 71px;
+   right: 100px;
+}
+
+.waffer {
+   position: absolute;
+   bottom: -197px;
+   left: 55px;
+}
+
+section.reservation {
+   font-family: 'Playfair Display', serif;
+}
+
+.formfile input.form-control {
+   margin-top: 15px;
+   height: 64px;
+}
+
+section.reservation h3 {
+   font-size: 29px;
+   text-transform: uppercase;
+   font-family: 'Playfair Display', serif;
+   font-weight: 700;
+}
+
+section.reservation h1 {
+   font-size: 62px;
+   font-family: gabelisa, serif;
+   color: #f04b58;
+}
+
+.formfile button.btn.btn-default {
+   margin-top: 15px;
+   padding: 17px 139px;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.formfile button.btn.btn-default:hover {
+   background-color: #f04b58;
+   color: #fff;
+   transition: .5s ease .05s;
+}
+
+/* footer */
+.footer-section {
+   background-image: url(../img/footersection.png);
+   background-repeat: no-repeat;
+   height: 576px;
+   background-position: center;
+   background-size: cover;
+   margin-top: 100px;
+   font-family: 'Playfair Display', serif;
+   margin-bottom: 50px;
+}
+
+.footericon-sub {
+   text-align: center;
+   padding: 20px 0px;
+}
+
+.footer-middle-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 544px;
+   position: relative;
+   flex-direction: column;
+}
+
+.footericon-sub p {
+   color: #fff;
+   font-size: 20px;
+   line-height: 37px;
+   padding-top: 11px;
+}
+
+.footer-logo img {
+   padding-bottom: 50px;
+}
+
+.footer-faw {
+   float: right;
+   padding-right: 20px;
+}
+
+.footer-foot p {
+   color: #fff;
+   font-size: 16px;
+   padding-left: 20px;
+}
+
+.footer-faw i {
+   background-color: #fff;
+   border-radius: 100%;
+   height: 25px;
+   width: 25px;
+   padding: 6px 6px;
+   color: black;
+   font-weight: 900
+}

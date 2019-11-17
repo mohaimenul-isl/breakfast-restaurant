@@ -27,7 +27,7 @@
    background-image: url(../img/hero-bg.png);
    background-position: center;
    background-size: cover;
-   height: 1012px;
+   padding: 0px 0px 300px 0px;
    background-repeat: no-repeat;
 }
 
@@ -65,7 +65,8 @@ li.nav-item a {
    display: flex;
    justify-content: flex-start;
    align-items: center;
-   height: 550px;
+   padding-top: 200px;
+   padding-bottom: 200px;
    padding-left: 74px;
 }
 
@@ -104,7 +105,7 @@ li.nav-item a {
 .berry {
    position: absolute;
    right: 0;
-   top: -112px;
+   top: -164px;
    z-index: -1;
 }
 
@@ -112,7 +113,7 @@ li.nav-item a {
    text-align: center;
 }
 
-.ourstorytext h1 {
+.ourstorytext h2 {
    font-family: 'Playfair Display', serif;
    font-size: 41px;
    font-weight: 700;
@@ -131,7 +132,7 @@ li.nav-item a {
    color: #f04b58;
 }
 
-.ourstorytext button.btn.btn-default {
+.ourstorytext .btn.btn-default {
    padding: 13px 34px;
    font-size: 16px;
    font-weight: 700;
@@ -147,21 +148,16 @@ li.nav-item a {
 
 .feast-section {
    background-image: url(../img/section3.png);
-   height: 660px;
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
 }
 
-.feast-txt {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 600px;
-   position: relative;
+.feast-content {
+   padding: 265px 0px;
 }
 
-.row.feast-txt h4 {
+.row.feast-content h4 {
    color: #fff;
    font-size: 33px;
    letter-spacing: 4.6px;
@@ -188,7 +184,7 @@ li.nav-item a {
    content: "";
    height: 1px;
    display: inline-block;
-   left: 37px;
+   left: 371px;
    top: 15px;
    position: absolute;
 }
@@ -200,36 +196,37 @@ li.nav-item a {
    height: 1px;
    display: inline-block;
    top: 15px;
-   right: 79px;
+   right: 411px;
    position: absolute;
 }
 
-.ourstorytext button.btn.btn-default {
+.ourstorytext .btn.btn-default {
    padding: 12px 35px;
 }
 
-.ourstorytext button.btn.btn-default:hover {
+.ourstorytext .btn.btn-default:hover {
    background-color: #f04b58;
    color: #fff;
    transition: .5s ease .05s;
 }
 
 /* Menu */
-section.menu {
+.menu {
    padding: 106px 0px;
 }
 
-.menuwriting {
+.menu-content {
    display: -webkit-flex;
    align-items: center;
    justify-content: flex-start;
    padding-top: 21px;
 }
-.menu-txt {
+
+.menu-wrap {
    width: 100%;
 }
 
-.menu-txt h2 {
+.menu-wrap h2 {
    font-family: 'Playfair Display', serif;
    font-size: 29.70px;
    text-transform: uppercase;
@@ -238,7 +235,7 @@ section.menu {
    letter-spacing: .6px;
 }
 
-.menu-txt h1 {
+.menu-wrap h3 {
    font-size: 62px;
    font-family: gabelisa, serif;
    color: #f04b58;
@@ -246,20 +243,20 @@ section.menu {
    margin-top: -8px;
 }
 
-.menu-txt-sub h5 {
+.menu-item h5 {
    font-size: 25px;
    font-weight: 700;
    font-family: 'Playfair Display', serif;
 }
 
-.menu-txt-sub p {
+.menu-item p {
    color: #717171;
    width: 322px;
    padding-bottom: 33px;
    font-family: 'Playfair Display', serif;
 }
 
-.menu-txt-sub p {
+.menu-item p {
    color: #717171;
    width: 383px;
    padding-bottom: 30px;
@@ -267,7 +264,7 @@ section.menu {
    word-spacing: 2px;
 }
 
-.menu-txt-sub .royalsub {
+.menu-item .royalsub {
    float: left;
    font-family: 'Playfair Display', serif;
 }
@@ -293,7 +290,7 @@ section.menu {
    margin-top: 54px;
 }
 
-section.social-events h1 {
+.social-events h2 {
    color: #f04b58;
    font-size: 62.5px;
    font-family: gabelisa, serif;
@@ -318,7 +315,7 @@ section.social-events h1 {
 
 /* Reservation */
 
-section.reservation {
+.reservation {
    padding-top: 36px;
    padding-bottom: 20px;
 }
@@ -339,7 +336,7 @@ section.reservation {
    left: 55px;
 }
 
-section.reservation {
+.reservation {
    font-family: 'Playfair Display', serif;
 }
 
@@ -348,20 +345,20 @@ section.reservation {
    height: 64px;
 }
 
-section.reservation h3 {
+.reservation h3 {
    font-size: 29px;
    text-transform: uppercase;
    font-family: 'Playfair Display', serif;
    font-weight: 700;
 }
 
-section.reservation h2 {
+.reservation h2 {
    font-size: 62px;
    font-family: gabelisa, serif;
    color: #f04b58;
 }
 
-.formfile button.btn.btn-default {
+.formfile .btn.btn-default {
    margin-top: 15px;
    padding: 17px 139px;
    font-size: 20px;
@@ -369,7 +366,7 @@ section.reservation h2 {
    font-weight: 700;
 }
 
-.formfile button.btn.btn-default:hover {
+.formfile .btn.btn-default:hover {
    background-color: #f04b58;
    color: #fff;
    transition: .5s ease .05s;

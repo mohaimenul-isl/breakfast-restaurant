@@ -87,13 +87,10 @@ li.nav-item a {
 
 .our-story {
    background-image: url(../img/section2.png);
-   height: 637px;
    background-size: contain;
    background-position: center;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: -60px;
+   margin-top: -30px;
+   padding-bottom: 90px;
    background-repeat: no-repeat;
    position: relative;
 }
@@ -112,9 +109,6 @@ li.nav-item a {
 }
 
 .ourstorytext {
-   display: flex;
-   justify-content: center;
-   align-items: center;
    text-align: center;
 }
 
@@ -225,13 +219,12 @@ section.menu {
    padding: 106px 0px;
 }
 
-.col-md-6.menuwriting {
+.menuwriting {
    display: -webkit-flex;
    align-items: center;
    justify-content: flex-start;
-   height: 576px;
+   padding-top: 21px;
 }
-
 .menu-txt {
    width: 100%;
 }
@@ -362,7 +355,7 @@ section.reservation h3 {
    font-weight: 700;
 }
 
-section.reservation h1 {
+section.reservation h2 {
    font-size: 62px;
    font-family: gabelisa, serif;
    color: #f04b58;
@@ -383,15 +376,12 @@ section.reservation h1 {
 }
 
 /* footer */
-.footer-section {
+.footer {
    background-image: url(../img/footersection.png);
    background-repeat: no-repeat;
-   height: 576px;
    background-position: center;
    background-size: cover;
-   margin-top: 100px;
-   font-family: 'Playfair Display', serif;
-   margin-bottom: 50px;
+   margin-top: 109px;
 }
 
 .footericon-sub {

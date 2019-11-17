@@ -25,7 +25,7 @@
 
 .main-header {
    background-image: url(../img/hero-bg.png);
-   background-position: center;
+   background-position:right bottom;
    background-size: cover;
    padding: 0px 0px 300px 0px;
    background-repeat: no-repeat;

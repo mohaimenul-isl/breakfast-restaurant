@@ -132,7 +132,7 @@ li.nav-item a {
    color: #f04b58;
 }
 
-.review-content .btn.btn-default {
+.review-content a .btn.btn-default {
    padding: 13px 34px;
    font-size: 16px;
    font-weight: 700;

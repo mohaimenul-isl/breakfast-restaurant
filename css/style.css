@@ -109,30 +109,30 @@ li.nav-item a {
    z-index: -1;
 }
 
-.ourstorytext {
+.review-content {
    text-align: center;
 }
 
-.ourstorytext h2 {
+.review-content h2 {
    font-family: 'Playfair Display', serif;
    font-size: 41px;
    font-weight: 700;
 }
 
-.ourstorytext p {
+.review-content p {
    font-size: 20.83px;
    line-height: 33px;
    font-family: 'Playfair Display', serif;
    padding-top: 20px;
 }
 
-.ourstorytext span {
+.review-content span {
    font-family: gabelisa, serif;
    font-size: 100px;
    color: #f04b58;
 }
 
-.ourstorytext .btn.btn-default {
+.review-content .btn.btn-default {
    padding: 13px 34px;
    font-size: 16px;
    font-weight: 700;

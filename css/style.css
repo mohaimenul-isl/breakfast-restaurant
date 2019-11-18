@@ -380,14 +380,18 @@ li.nav-item a {
 
 /* footer */
 .footer {
+ 
+   margin-top: 109px;
+   /* margin-left: 60px;
+   margin-right: 60px;
+   margin-bottom: 60px; */
+}
+
+.footer-img {
    background-image: url(../img/footersection.png);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   margin-top: 109px;
-   margin-left: 60px;
-   margin-right: 60px;
-   margin-bottom: 60px;
 }
 
 .footericon-item {

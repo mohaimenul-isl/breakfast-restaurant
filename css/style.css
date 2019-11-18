@@ -339,7 +339,7 @@ li.nav-item a {
 .waffer {
    position: absolute;
    bottom: -197px;
-   left: 55px;
+   left: 100px;
 }
 
 .reservation {
@@ -380,11 +380,8 @@ li.nav-item a {
 
 /* footer */
 .footer {
- 
    margin-top: 109px;
-   /* margin-left: 60px;
-   margin-right: 60px;
-   margin-bottom: 60px; */
+   margin-bottom: 60px;
 }
 
 .footer-img {
